@@ -1,5 +1,5 @@
 node default {
-  file {'/root/READMR':
+  file {'/root/README':
     ensure => file,
     content => 'This is a test file',
   }
